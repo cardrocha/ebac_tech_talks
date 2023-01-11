@@ -1,11 +1,16 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variables.$textColor;
+    list-style: none;
 }
 
 .container {
